@@ -6,8 +6,6 @@ function draw(){
   background(0, 25, 50);
   fill (255, 200, 0);
 ellipse (300, 400, 200, 200);
-fill (0, 0, 0, 200);
-ellipse (244, 350, 50, 50);
 strokeWeight(2);
 fill (255);
   ellipse(325, 380, 20, 20);
