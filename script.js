@@ -4,9 +4,10 @@ function setup(){
 
 function draw(){
   background(0, 25, 50);
+  stroke (0);
   fill (255, 200, 0);
 ellipse (300, 400, 200, 200);
-strokeWeight(2);
+strokeWeight(3);
 fill (255);
   ellipse(325, 380, 20, 20);
   ellipse(275, 380, 20, 20);
@@ -34,6 +35,7 @@ fill (255);
   rect (61, 530, 20, 30);
   fill (255, 0, 0);
   triangle (90, 530, 130, 570, 50, 570);
+  stroke (255);
   fill (255);
   ellipse (65, 495, 10, 70);
   fill(255);
